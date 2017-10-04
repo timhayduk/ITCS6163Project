@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="queryAll.php" method="post">
+    <input type="text" name="Table" value="customer">
+    <input type="submit" value="Show all from table">
+</form>
+
+<br>
+
+<form action="customQuery.php" method="post">
+    SELECT: <input type="text" name="Select" value="*"><br>
+    FROM: <input type="text" name="Table" value="customer"><br>
+    WHERE: <input type="text" name="Where" value=""><br>
+    <input type="submit" value="Run Query">
+</form>
+
+</body>
+</html>
